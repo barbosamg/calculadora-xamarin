@@ -1,0 +1,12 @@
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.deps.json
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.dll
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.pdb
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.csprojAssemblyReference.cache
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.csproj.CoreCompileInputs.cache
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.AssemblyInfoInputs.cache
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.AssemblyInfo.cs
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.dll
+D:\Users\mateus.barbosa\Documents\SENAC-UC3\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.pdb

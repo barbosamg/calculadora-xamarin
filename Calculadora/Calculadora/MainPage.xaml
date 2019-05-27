@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Calculadora"
+             x:Class="Calculadora.MainPage">
+
+
+    <StackLayout VerticalOptions="Center">
+        <Entry Placeholder="Caixa de texto" IsEnabled="False" Text="{Binding Visor}" />
+        <Button Text="Limpar" Command="{Binding LimpaTudoCommand}"/>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+            <Button x:Name="d1" Text="1" HorizontalOptions="FillAndExpand" Command="{Binding InsereNumeroCommand}" CommandParameter="{Binding Source={x:Reference d1}, Path=Text}"/>
+            <Button x:Name="d2" Text="2" HorizontalOptions="FillAndExpand" Command="{Binding InsereNumeroCommand}" CommandParameter="{Binding Source={x:Reference d2}, Path=Text}"/>
+            <Button x:Name="d3" Text="3" HorizontalOptions="FillAndExpand" Command="{Binding InsereNumeroCommand}" CommandParameter="{Binding Source={x:Reference d3}, Path=Text}"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="d4" Text="4" HorizontalOptions="FillAndExpand" Command="{Binding InsereNumeroCommand}" CommandParameter="{Binding Source={x:Reference d4}, Path=Text}"/>
+            <Button x:Name="d5" Text="5" HorizontalOptions="FillAndExpand" Command="{Binding InsereNumeroCommand}" CommandParameter="{Binding Source={x:Reference d5}, Path=Text}"/>
+            <Button x:Name="d6" Text="6" HorizontalOptions="FillAndExpand" Command="{Binding InsereNumeroCommand}" CommandParameter="{Binding Source={x:Reference d6}, Path=Text}"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="d7" Text="7" HorizontalOptions="FillAndExpand" Command="{Binding InsereNumeroCommand}" CommandParameter="{Binding Source={x:Reference d7}, Path=Text}"/>
+            <Button x:Name="d8" Text="8" HorizontalOptions="FillAndExpand" Command="{Binding InsereNumeroCommand}" CommandParameter="{Binding Source={x:Reference d8}, Path=Text}"/>
+            <Button x:Name="d9" Text="9" HorizontalOptions="FillAndExpand" Command="{Binding InsereNumeroCommand}" CommandParameter="{Binding Source={x:Reference d9}, Path=Text}"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+            <Button x:Name="d0" Text="0" HorizontalOptions="FillAndExpand" Command="{Binding InsereNumeroCommand}" CommandParameter="{Binding Source={x:Reference d0}, Path=Text}"/>
+            <Button Text="=" HorizontalOptions="FillAndExpand" Command="{Binding RealizaOperacaoCommand}"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="oSoma" Text="+" HorizontalOptions="FillAndExpand" Command="{Binding InsereOperacaoCommand}" CommandParameter="{Binding Source={x:Reference oSoma}, Path=Text}"/>
+            <Button x:Name="oSubtracao" Text="-" HorizontalOptions="FillAndExpand" Command="{Binding InsereOperacaoCommand}" CommandParameter="{Binding Source={x:Reference oSubtracao}, Path=Text}"/>
+            <Button x:Name="oMultiplicacao" Text="*" HorizontalOptions="FillAndExpand" Command="{Binding InsereOperacaoCommand}" CommandParameter="{Binding Source={x:Reference oMultiplicacao}, Path=Text}"/>
+            <Button x:Name="oDivisao" Text="/" HorizontalOptions="FillAndExpand" Command="{Binding InsereOperacaoCommand}" CommandParameter="{Binding Source={x:Reference oDivisao}, Path=Text}"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
